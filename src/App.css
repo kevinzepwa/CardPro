@@ -1,0 +1,250 @@
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+.toggler p {
+  font-size: 0.625rem;
+  font-weight: 600;
+}
+/* General NAV styles */
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 30px 25px;
+  height: 4rem;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.4);
+  z-index: 1;
+}
+
+.nav-logo_icon {
+  width: 50px;
+  height: 50px;
+  margin-right: 3px;
+}
+
+.nav-logo_text {
+  color: #61dafb;
+  margin-right: auto;
+}
+
+.toggler {
+  display: flex;
+  align-items: center;
+}
+
+/*****************slider styles, light & dark********************/
+
+.toggler-slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2b283a;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+}
+
+.dark-toggler-slider {
+  width: 25px;
+  height: 13px;
+  background-color: #2b283a;
+  border-radius: 2rem;
+  margin-inline: 7px;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid black;
+  box-sizing: content-box;
+  border-color: white;
+  background-color: #ffffff;
+}
+
+.toggler-slider-circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.dark-toggler-slider-circle {
+  height: 13px;
+  width: 13px;
+  background-color: white;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.toggler-light {
+  color: #2b283a;
+}
+
+.toggler-dark {
+  color: #d5d4d8;
+}
+
+nav.dark .toggler-dark {
+  color: #ffffff;
+}
+
+.dark-toggler-slider {
+  justify-content: flex-end;
+}
+
+/* MAIN styles */
+
+main {
+  padding: 52px 51px 0px 51px;
+  background-image: url("https://mdbootstrap.com/img/new/fluid/city/112.jpg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  flex: 1 1 auto;
+  background-color: rgb(204, 204, 204);
+  color: #2b283a;
+  margin-top: 51px;
+  height: 145vh;
+}
+main,
+.dark {
+  background-color: rgb(204, 204, 204);
+  color: #2b283a;
+}
+
+.main-top-div {
+  margin-bottom: 1rem;
+}
+.main-bottom-div {
+  background: rgba(204, 204, 204, 0.35);
+  border-radius: 13px;
+}
+
+.main-bottom-div,
+.main-projects-section {
+  padding: 0.51rem;
+  margin: 20px 0px 10px 0px;
+}
+
+/************************************************************************************************************/
+/* Main On Toggle styles */
+
+main.dark {
+  background-image: url("https://mdbootstrap.com/img/new/fluid/city/115.jpg");
+  background-color: #282d35;
+  color: white;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
+  letter-spacing: -0.05em;
+}
+
+.main--facts {
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.main--facts > li {
+  line-height: 19px;
+  padding-block: 10px;
+}
+
+.main--facts > li::marker {
+  font-size: 1.4rem;
+  color: #007bff;
+}
+
+/* PROJECTS styles  */
+.projects-invite-title,
+.contact-invite {
+  padding-left: 52px;
+}
+
+.mask {
+  background-color: rgba(251, 251, 251, 0.2);
+}
+
+/* FOOTER styles & Socials Icons */
+.fa {
+  padding: 0.6rem;
+  font-size: 1.85rem;
+  width: 30px;
+  text-decoration: none;
+  border-radius: 28%;
+  display: inline-table;
+  margin: 0.25rem;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-snapchat {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.footer-text {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 3rem;
+  font-size: 1.3rem;
+}
