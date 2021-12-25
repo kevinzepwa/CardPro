@@ -13,7 +13,7 @@ export default function Nav(props){
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav ml-auto">
                 <li className="navbar-item">
-                    <a href="#" class="nav-link">Home</a>
+                    <a href="#!" class="nav-link">Home</a>
                 </li>
                 <li className="navbar-item">
                     <a href="https://kevinzepwa.netlify.app/" className="nav-link">About Me</a>

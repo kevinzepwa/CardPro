@@ -18,7 +18,7 @@ export default function Main(props){
                 {/* Grid container */}
                 <div>
         <h3 className="projects-invite-title">Here are some of my recent exciting Projects</h3>
-        <p className="contact-invite">Click to visit, and if you like any you can reach out to me <a href="#">here</a></p>
+        <p className="contact-invite">Click to visit, and if you like any you can reach out to me</p>
             </div>
 
             <div>
@@ -30,7 +30,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://pa-pet.netlify.app/static/media/product-08%20(2).2daaedb0.jpg"
+                    src="https://pa-pet.netlify.app/static/media/product-08%20(2).2daaedb0.jpg" alt="pa pet"
                     className="w-100"
                   />
                   <a href="#!">
@@ -47,7 +47,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://vbobby.netlify.app/images/profilepic.jpg"
+                    src="https://vbobby.netlify.app/images/profilepic.jpg" alt="vbobby"
                     className="w-100"
                   />
                   <a href="#!">
@@ -64,7 +64,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://mama-garage.netlify.app/assets/img/about_img.png"
+                    src="https://mama-garage.netlify.app/assets/img/about_img.png" alt="mama garage"
                     className="w-100"
                   />
                   <a href="#!">
@@ -81,7 +81,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/new/fluid/city/114.jpg"
+                    src="https://mdbootstrap.com/img/new/fluid/city/114.jpg" alt="project x"
                     className="w-100"
                   />
                   <a href="#!">
@@ -98,7 +98,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/new/fluid/city/116.jpg"
+                    src="https://mdbootstrap.com/img/new/fluid/city/116.jpg" alt="project x"
                     className="w-100"
                   />
                   <a href="#!">
@@ -115,7 +115,7 @@ export default function Main(props){
                   data-ripple-color="light"
                 >
                   <img
-                    src="https://mdbootstrap.com/img/new/fluid/city/117.jpg"
+                    src="https://mdbootstrap.com/img/new/fluid/city/117.jpg" alt="project x"
                     className="w-100"
                   />
                   <a href="#!">
