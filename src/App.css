@@ -100,7 +100,7 @@ nav {
   width: 13px;
   background-color: white;
   border-radius: 50%;
-  background-color: black;
+  background-color: #282d35;
 }
 
 .toggler-light {
@@ -135,7 +135,6 @@ main {
 }
 main,
 .dark {
-  background-color: rgb(204, 204, 204);
   color: #2b283a;
 }
 
@@ -156,10 +155,38 @@ main,
 /************************************************************************************************************/
 /* Main On Toggle styles */
 
+/*
 main.dark {
   background-image: url("https://mdbootstrap.com/img/new/fluid/city/115.jpg");
   background-color: #282d35;
   color: white;
+}
+
+*/
+main.dark {
+  color: #a6d4e1;
+  position: relative;
+}
+
+main.dark:before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.75;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: #000;
+}
+
+.main-top-div,
+.main-bottom-div {
+  position: relative;
 }
 
 .main--title {
