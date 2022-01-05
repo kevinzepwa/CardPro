@@ -130,8 +130,8 @@ main {
   flex: 1 1 auto;
   background-color: rgb(204, 204, 204);
   color: #2b283a;
-  margin-top: 51px;
-  height: 145vh;
+  margin-top: 2.5rem;
+  height: 100%;
 }
 main,
 .dark {
@@ -139,7 +139,7 @@ main,
 }
 
 .main-top-div {
-  margin-bottom: 1rem;
+  margin-bottom: 5rem;
 }
 .main-bottom-div {
   background: rgba(204, 204, 204, 0.35);
@@ -148,8 +148,8 @@ main,
 
 .main-bottom-div,
 .main-projects-section {
-  padding: 0.51rem;
-  margin: 20px 0px 10px 0px;
+  padding: 0.31rem;
+  margin: 20px 0px 0px 0px;
 }
 
 /************************************************************************************************************/
@@ -213,7 +213,7 @@ main.dark:before {
 /* PROJECTS styles  */
 .projects-invite-title,
 .contact-invite {
-  padding-left: 52px;
+  padding-left: 1rem;
 }
 
 .mask {

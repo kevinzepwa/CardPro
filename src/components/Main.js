@@ -22,34 +22,17 @@ export default function Main(props){
             </div>
 
             <div>
-                <section className="main-projects-section">
+          <section className="main-projects-section">
             <div className="row">
               <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
                 >
-                  <img
-                    src="https://pa-pet.netlify.app/static/media/product-08%20(2).2daaedb0.jpg" alt="pa pet"
-                    className="w-100"
-                  />
-                  <a href="#!">
-                    <div
-                      className="mask"
-                    ></div>
-                  </a>
-                </div>
-              </div>
-
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
-                <div
-                  className="bg-image hover-overlay ripple shadow-1-strong rounded"
-                  data-ripple-color="light"
-                >
-                  <img
+                  <a href="https://vbobby.netlify.app/" target="_blank"><img
                     src="https://vbobby.netlify.app/images/profilepic.jpg" alt="vbobby"
                     className="w-100"
-                  />
+                  /></a>
                   <a href="#!">
                     <div
                       className="mask"
@@ -63,10 +46,10 @@ export default function Main(props){
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
                 >
-                  <img
+                  <a href="https://mama-garage.netlify.app" target="_blank"><img
                     src="https://mama-garage.netlify.app/assets/img/about_img.png" alt="mama garage"
                     className="w-100"
-                  />
+                  /></a>
                   <a href="#!">
                     <div
                       className="mask"
@@ -80,10 +63,10 @@ export default function Main(props){
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
                 >
-                  <img
-                    src="https://mdbootstrap.com/img/new/fluid/city/114.jpg" alt="project x"
+                  <a href="https://pa-pet.netlify.app" target="_blank"><img
+                    src="https://pa-pet.netlify.app/static/media/product-08%20(2).2daaedb0.jpg" alt="pa pet"
                     className="w-100"
-                  />
+                  /></a>
                   <a href="#!">
                     <div
                       className="mask"
@@ -97,10 +80,27 @@ export default function Main(props){
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
                 >
-                  <img
-                    src="https://mdbootstrap.com/img/new/fluid/city/116.jpg" alt="project x"
+                  <a href="https://kevinzepwa.netlify.app/" target="_blank"><img
+                    src="https://kevinzepwa.netlify.app/images/profile-3.jpeg" alt="portfolio"
                     className="w-100"
-                  />
+                  /></a>
+                  <a href="#!">
+                    <div
+                      className="mask"
+                    ></div>
+                  </a>
+                </div>
+              </div>
+              
+              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+                <div
+                  className="bg-image hover-overlay ripple shadow-1-strong rounded"
+                  data-ripple-color="light"
+                >
+                  <a href="https://card-pro.netlify.app/"><img
+                    src="https://card-pro.netlify.app/logo512.png" alt="card pro"
+                    className="w-100"
+                  /></a>
                   <a href="#!">
                     <div
                       className="mask"
@@ -125,15 +125,11 @@ export default function Main(props){
                   </a>
                 </div>
               </div>
-        
-
             </div>
           </section>
         </div>
         </div>
-                        
-        {/* </main> */}
-        </main>
+      </main>
     )
 }
 
