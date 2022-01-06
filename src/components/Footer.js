@@ -59,7 +59,7 @@ export default function Footer(props){
             {/* Footer text & Copyright */}
             <div className="footer-text">
                 ©  2021
-                <a className="footer-text-colored" href="https://www.google.com/"> devKev</a>
+                <a className="footer-text-colored" href="https://www.google.com/"> dev_Kev</a>
             </div>
         </footer>
     )

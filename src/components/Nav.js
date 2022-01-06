@@ -16,7 +16,7 @@ export default function Nav(props){
                     <a href="#!" class="nav-link">Home</a>
                 </li>
                 <li className="navbar-item">
-                    <a href="https://kevinzepwa.netlify.app/" className="nav-link">About Me</a>
+                    <a href="https://kevinzepwa.netlify.app/" className="nav-link" target="_blank" rel="noreferrer">About Me</a>
                 </li>
             </ul>
             <div 
