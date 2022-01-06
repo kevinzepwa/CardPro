@@ -197,7 +197,6 @@ main.dark:before {
 
 .main--facts {
   margin-top: 46px;
-  max-width: 400px;
 }
 
 .main--facts > li {
@@ -214,6 +213,18 @@ main.dark:before {
 .projects-invite-title,
 .contact-invite {
   padding-left: 1rem;
+}
+
+.projects-item {
+  transition: transform .5s;
+  /* Animation */
+  width: auto;
+  height: auto;
+  margin: 0 auto;
+}
+
+.projects-item:hover {
+  transform: scale(1.1);
 }
 
 .mask {

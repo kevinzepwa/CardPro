@@ -9,9 +9,11 @@ export default function Main(props){
                 <ul className="main--facts">
                     <li>I am Kevin, a full stack software developer</li>
                     <li>I connect with the world through lines of code</li>
-                    <li>I am an apt student</li>
-                    <li>I am versatile</li>
-                    <li>I am open to new ideas and opportunities</li>
+                    <li>I love to write React design patterns that combine styled components (CSS in Javascript).</li>
+                    <li>I write Node.js for APIs</li>
+                    <li>I'm intermediate in Python-Django for backend</li>
+                    <li>I make awesome components for responsive frontend user interface</li>
+                    <li>I am versatile and currently open to new ideas and opportunities</li>
                 </ul>
             </div>
             <div className="main-bottom-div">
@@ -24,7 +26,7 @@ export default function Main(props){
             <div>
           <section className="main-projects-section">
             <div className="row">
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
@@ -36,7 +38,7 @@ export default function Main(props){
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
@@ -48,7 +50,7 @@ export default function Main(props){
                 </div>
               </div>
 
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
@@ -60,7 +62,7 @@ export default function Main(props){
                   </div>
               </div>
 
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
@@ -72,7 +74,7 @@ export default function Main(props){
                   </div>
               </div>
               
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
@@ -84,7 +86,7 @@ export default function Main(props){
                   </div>
               </div>
 
-              <div className="col-lg-2 col-md-12 mb-4 mb-md-0">
+              <div className="projects-item col-lg-2 col-md-12 mb-4 mb-md-0">
                 <div
                   className="bg-image hover-overlay ripple shadow-1-strong rounded"
                   data-ripple-color="light"
